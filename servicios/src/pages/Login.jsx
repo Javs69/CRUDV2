@@ -28,14 +28,10 @@ export default function Login() {
             <p className="text-sm font-bold uppercase tracking-[0.4em]">Game Archive</p>
             <h1 className="mt-6 text-5xl font-black leading-none">Tu inventario gamer en un solo panel</h1>
             <p className="mt-6 max-w-lg text-sm font-medium">
-              Administra videojuegos y plataformas con un flujo simple de login, tabla,
-              modal y alertas.
+              Administra videojuegos y plataformas
             </p>
           </div>
-          <div className="rounded-3xl bg-slate-950/10 p-5 backdrop-blur">
-            <p className="text-sm font-semibold">Usuario demo sugerido en la BD</p>
-            <p className="mt-2 text-sm">admin / 123456</p>
-          </div>
+          
         </section>
 
         <section className="p-8 lg:p-10">
