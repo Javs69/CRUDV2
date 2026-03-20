@@ -1,4 +1,5 @@
-const API_URL = 'http://localhost:3000/api'
+const API_URL =
+  import.meta.env.VITE_API_URL ?? 'https://crudv2-qm7g.onrender.com/api'
 
 export async function request(endpoint, options = {}) {
   const response = await fetch(`${API_URL}${endpoint}`, {
